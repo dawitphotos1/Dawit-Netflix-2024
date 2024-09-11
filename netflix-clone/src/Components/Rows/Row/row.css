@@ -1,0 +1,48 @@
+/* *************************************************** */
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.row__posters::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Hide scrollbar for WebKit browsers */
+}
+
+.row__poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 200px; /* Adjust based on your design */
+  transition: transform 450ms;
+  margin-right: 10px; /* Space between images */
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.row__posterLarge {
+  max-height: 250px; /* Adjust based on your design for large posters */
+}
+
+.row__posterLarge:hover {
+  transform: scale(1.09);
+}
+
+.row {
+  margin-left: 20px;
+  color: white;
+}
+
+.row h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 40px;
+  /* text-align: center; */
+}
