@@ -2,7 +2,8 @@
 .banner {
     margin-top: -10vh; /* Adjusts the top margin to position the banner */
     height: 80vh; /* Sets the height of the banner to 80% of the viewport height */
-    margin-bottom: 100px; /* Adjusts the bottom margin to create space below the banner */
+    /* margin-bottom: 150px;  */
+    /* Adjusts the bottom margin to create space below the banner */
     color: white; /* Sets the text color to white */
     object-fit: contain; /* Ensures the background image fits within the banner */
     background-size: cover; /* Ensures the background image covers the entire banner */
@@ -11,7 +12,7 @@
 /* Container for the content inside the banner */
 .banner__contents {
     margin-left: 30px; /* Adds left margin for positioning content */
-    padding-top: 300px; /* Adds top padding to position content vertically within the banner */
+    padding-top: 350px; /* Adds top padding to position content vertically within the banner */
 }
 
 /* Title style within the banner */
@@ -64,7 +65,7 @@
     background-image: linear-gradient(
         180deg, /* Gradual transition from top to bottom */
         transparent, /* Fully transparent at the top */
-        rgba(37, 37, 37, 0.91), /* Dark gray with slight transparency */
+        rgba(37, 37, 37, 0.61), /* Dark gray with slight transparency */
         #111 /* Solid dark color at the bottom */
     );
 }
