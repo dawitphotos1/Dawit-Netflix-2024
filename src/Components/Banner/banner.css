@@ -1,0 +1,71 @@
+/* Banner container */
+.banner {
+    margin-top: -10vh; /* Adjusts the top margin to position the banner */
+    height: 80vh; /* Sets the height of the banner to 80% of the viewport height */
+    /* margin-bottom: 150px;  */
+    /* Adjusts the bottom margin to create space below the banner */
+    color: white; /* Sets the text color to white */
+    object-fit: contain; /* Ensures the background image fits within the banner */
+    background-size: cover; /* Ensures the background image covers the entire banner */
+}
+
+/* Container for the content inside the banner */
+.banner__contents {
+    margin-left: 30px; /* Adds left margin for positioning content */
+    padding-top: 350px; /* Adds top padding to position content vertically within the banner */
+}
+
+/* Title style within the banner */
+.banner__title {
+    font-size: 3rem; /* Sets the font size of the title */
+    font-weight: 800; /* Makes the title bold */
+    padding-bottom: 0.3rem; /* Adds bottom padding to separate the title from the content below */
+}
+
+/* Description style within the banner */
+.banner__description {
+    width: 45rem; /* Sets a fixed width for the description */
+    line-height: 1; /* Sets the line height for the text */
+    padding: 1rem 0; /* Adds vertical padding to the description */
+    font-size: 1rem; /* Sets the font size of the description */
+    max-width: 360px; /* Sets the maximum width of the description */
+    height: 80px; /* Sets a fixed height for the description */
+}
+
+/* Common button styles */
+.banner__button {
+   cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+   color: #fff; /* Sets the text color of the button to white */
+   outline: none; /* Removes the outline around the button */
+   border: none; /* Removes the border of the button */
+   font-size: 1.2rem; /* Sets the font size of the button text */
+   font-weight: 700; /* Makes the button text bold */
+   border-radius: 0.2vw; /* Rounds the corners of the button */
+   padding: 1rem 3rem; /* Adds padding inside the button */
+   margin-right: 2rem; /* Adds margin to the right of the button */
+   background-color: rgba(51, 51, 51, 0.5); /* Sets the background color with some transparency */
+}
+.check{background-color: red;}
+/* Specific style for the Play button */
+.play {
+    color: #000; /* Sets the text color of the Play button to black */
+    background-color: #fff; /* Sets the background color of the Play button to white */
+}
+
+/* Button hover styles */
+.banner__button:hover {
+    color: #000; /* Changes the text color to black when hovering */
+    background-color: #c6c6c6; /* Changes the background color to a light gray when hovering */
+    transition: background-color 0.2s ease; /* Adds a smooth transition effect for the background color */
+}
+
+/* Gradient effect at the bottom of the banner */
+.banner__fadeBottom {
+    height: 40vh; /* Sets the height of the gradient effect */
+    background-image: linear-gradient(
+        180deg, /* Gradual transition from top to bottom */
+        transparent, /* Fully transparent at the top */
+        rgba(37, 37, 37, 0.61), /* Dark gray with slight transparency */
+        #111 /* Solid dark color at the bottom */
+    );
+}

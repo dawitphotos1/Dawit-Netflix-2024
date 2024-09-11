@@ -1,0 +1,82 @@
+
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 132, 1232);
+    background-color: rgb(20,20,20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1; 
+    /* background-color: red; */
+} 
+ .nav_black{
+    background-color: rgb(20,20,20);
+} 
+
+/* Ensure the inner container takes full width and space between header_left and header_right */
+.header_container {
+  width: 100%;
+  max-width: 1200px; /* Optional: set a max-width if you want to constrain the width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the left side of the header */
+.header_left {
+  display: flex;
+  align-items: center;
+  padding-left: 20px; /* Adjust this padding to push content to the right */
+}
+
+.header_left ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center; /* Align items vertically */
+}
+
+.header_left li {
+  margin: 0 15px; /* Adjusted margin for better spacing */
+}
+
+.header_left img {
+  height: 50px; /* Adjust based on your design */
+}
+
+.header_left a {
+  color: white;
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+.header_left a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the right side of the header */
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_right ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center; /* Align items vertically */
+}
+
+.header_right li {
+  margin: 0 15px; /* Adjusted margin for better spacing */
+}
+
+
