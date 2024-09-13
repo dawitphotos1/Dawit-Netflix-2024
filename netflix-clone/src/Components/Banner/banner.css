@@ -45,7 +45,7 @@
    margin-right: 2rem; /* Adds margin to the right of the button */
    background-color: rgba(51, 51, 51, 0.5); /* Sets the background color with some transparency */
 }
-.check{}
+.check{background-color: red;}
 /* Specific style for the Play button */
 .play {
     color: #000; /* Sets the text color of the Play button to black */
