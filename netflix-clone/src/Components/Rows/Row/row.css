@@ -46,3 +46,74 @@
   margin-left: 40px;
   /* text-align: center; */
 }
+
+/* Responsive design for different screen sizes */
+@media (max-width: 1200px) {
+  .row__poster {
+    max-height: 180px;
+  }
+  
+  .row__posterLarge {
+    max-height: 220px;
+  }
+
+  .row h1 {
+    font-size: 26px;
+    margin-left: 20px;
+  }
+}
+/* 
+@media (max-width: 992px) {
+  .row__poster {
+    max-height: 160px;
+  }
+  
+  .row__posterLarge {
+    max-height: 200px;
+  }
+
+  .row h1 {
+    font-size: 22px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .row__posters {
+    /* padding: 10px 0; /* Adjusted padding to avoid cutting off images */
+  /* } */ 
+
+  /* .row__poster {
+    max-height: 140px;
+    width: calc(25% - 10px); Display four images per row with space for margins */
+  /* } */
+  
+  /* .row__posterLarge {
+    max-height: 180px;
+  }
+
+  .row h1 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .row__posters { */
+    /* padding: 10px 0; /* Adjust padding as necessary */
+  /* } */ 
+
+  /* .row__poster {
+    max-height: 120px; */
+    /* width: calc(25% - 10px); /* Ensure four images fit with margins */
+  /* } */
+   
+  /* .row__posterLarge {
+    max-height: 150px;
+  }
+
+  .row h1 {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+} */ 
